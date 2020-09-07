@@ -1,0 +1,337 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* /////////////////// */
+/* /////基本パーツ//// */
+/* /////////////////// */
+
+.site-width{
+  width: 980px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+}
+
+h2{
+  font-size: 40px;
+  text-align: center;
+  line-height: 50px;
+}
+
+p{
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+input{
+  width: 300px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+}
+
+textarea{
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  width: 800px;
+  height: 300px;
+}
+
+.btn{
+  width: 300px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border: solid 2px black;
+}
+
+form{
+  width: 800px;
+  margin: 0 auto;
+}
+
+.label{
+  display: block;
+}
+/* /////////////////// */
+/* ///ヘッダー部分//// */
+/* /////////////////// */
+
+.header{
+  height: 120px;
+  width: 100%;
+  position: relative;
+  background: #e3e5e5;
+  padding: 20px;
+}
+
+.header-logo{
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  line-height: 100px;
+  float: left;
+  background: #f9f8f8;
+  text-align: center;
+  font-size: 30px;
+}
+
+.header-logo a{
+  text-decoration: none;
+  color: #000;
+}
+
+.header-list{
+  float: right;
+  position: relative;
+  bottom: 0;
+}
+
+.header-ul{
+  list-style: none;
+  position: relative;
+  top: 100px;
+}
+
+.header-ul li{
+  float: left;
+  margin-right: 10px;
+}
+
+.headerul li:last-child{
+  margin-right: 0;
+}
+
+.header-ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* /////////////////// */
+/* 会員登録・ログイン */
+/* /////////////////// */
+
+.position{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: #f4f6f6;
+  padding: 10px;
+}
+
+.link{
+  margin:  0 auto;
+  width: 180px;
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+/* /////////////////// */
+/* //////メモ作成///// */
+/* /////////////////// */
+
+.count{
+  font-size: 20px;
+  display: block;
+  padding-top: 10px;
+  text-align: right;
+}
+
+.err-msg{
+  color: red;
+  text-align: center;
+  margin: 10px;
+}
+
+/* /////////////////// */
+/* //////メモ個別///// */
+/* /////////////////// */
+
+.a-btn{
+  text-align: center;
+  line-height: 60px;
+  text-decoration: none;
+  color: #000;
+  background: #f9f8f6;
+}
+
+/* /////////////////// */
+/* //////プロフ登録///// */
+/* /////////////////// */
+
+.img-register{
+  display: block;
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+  background: #d7d9db;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.img-register input{
+  opacity: 0;
+}
+
+/* /////////////////// */
+/* //////メモ一覧///// */
+/* /////////////////// */
+
+.memo{
+  overflow: hidden;
+  width: 80%;
+  height: 200px;
+  margin: 0 auto;
+  border: 2px solid #000;
+  margin-bottom: 10px;
+  border-radius: 20px;
+}
+
+.memo:last-child{
+  margin-bottom: 0
+}
+
+.memo-a{
+  text-decoration: none;
+  color: #000;
+  width: 100%;
+  height: 100px;
+  display: block;
+  cursor: pointer;
+}
+
+.memo-img img{
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+}
+
+.memo-content{
+  width: 100%;
+  height: 100px;
+  display: block;
+  cursor: pointer;
+}
+
+.memo-content.p{
+  float: right;
+  height: 100%;
+  word-wrap: break-word;
+  width: 100%;
+  height: 100px;
+  display: block;
+  cursor: pointer;
+}
